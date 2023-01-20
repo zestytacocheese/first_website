@@ -1,11 +1,48 @@
 h1 {
-    font-family: 'Times New Roman', Strong, large;
+    font-family: 'Times New Roman', large;
     color: whitesmoke;
+    border: 1em solid;
+    border-color: #7371fc;
     padding: 2em #7371fc;
+}
+
+body {
+background-color: #cdc1ff;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     padding:1em #e5d9f2;
+}
+
+.imbox {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    grid-template-rows: 2;
+}
+
+.topnav {
+    background-color: #a594f9;
+    overflow:hidden;
+
+}
+
+.topnav a {
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #6f59e0;
+    color: white;
+}
+
+.topnav a.active {
+    background: #f9cf94;
+    color: white;
 }
